@@ -1,5 +1,5 @@
+#include <iostream>
 #include <string>
-#include <string.h>
 #include "Vector2.h"
 #include "Snake.h"
 
@@ -16,11 +16,13 @@ void Snake::SetDirection(const std::string& dir) {
 		direction = Vector2(0.0f, 1.0f);
 	}
 
-	else if (dir == "down") {
+	if (dir == "down") {
 		direction = Vector2(0.0f, -1.0f);
 	}
 
-	else {
+	if(dir == "right") {
 		direction = Vector2(1.0f, 0.0f);
 	}
+	
+	std::cout << "| " << dir << " | " << direction << std::endl;
 }

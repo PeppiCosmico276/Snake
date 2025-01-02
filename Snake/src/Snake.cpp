@@ -1,0 +1,26 @@
+#include <string>
+#include <string.h>
+#include "Vector2.h"
+#include "Snake.h"
+
+void Snake::SetPosition(Vector2 pos) {
+	position = pos;
+}
+
+void Snake::SetDirection(const std::string& dir) {
+	if (dir == "left") {
+		direction = Vector2(-1.0f, 0.0f);
+	}
+
+	else if (dir == "up") {
+		direction = Vector2(0.0f, 1.0f);
+	}
+
+	else if (dir == "down") {
+		direction = Vector2(0.0f, -1.0f);
+	}
+
+	else {
+		direction = Vector2(1.0f, 0.0f);
+	}
+}

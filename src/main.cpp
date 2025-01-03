@@ -1,15 +1,16 @@
 ﻿#include <iostream>
+
 #include "Vector2.h"
 #include "Snake.h"
 #include "Inputs.h"
 
 int main()
 {
-	Snake snake;
-
+	int i = 0;
 	while (true) {
-		MoveInput(snake);
+		std::cout << i << std::endl;
+		i++;
 	}
-	
+
 	std::cin.get();
 }

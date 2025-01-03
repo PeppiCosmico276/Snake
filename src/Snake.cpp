@@ -12,7 +12,7 @@ void Snake::SetDirection(const std::string& dir) {
 		direction = Vector2(-1.0f, 0.0f);
 	}
 
-	else if (dir == "up") {
+	if (dir == "up") {
 		direction = Vector2(0.0f, 1.0f);
 	}
 

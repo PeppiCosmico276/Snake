@@ -2,12 +2,12 @@
 
 struct Vector2 {
 public:
-	float x, y;
+	int x, y;
 
 public:
 	Vector2(); //Конструктор по умолчанию
 	~Vector2() {}; // Деструктор
-	Vector2(float x, float y); // Конструктор
+	Vector2(int x, int y); // Конструктор
 
 	Vector2 operator+(const Vector2& vec); //Перегрузка оператора сложения
 	Vector2 operator-(const Vector2& vec); //Перегрузка оператора вычитания

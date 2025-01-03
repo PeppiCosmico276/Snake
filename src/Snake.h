@@ -1,6 +1,6 @@
 #pragma once
-#include "Vector2.h"
 #include <string>
+#include "Vector2.h"
 
 struct Snake {
 public:

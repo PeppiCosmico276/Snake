@@ -1,4 +1,4 @@
 #pragma once
 #include "Snake.h"
 
-void MoveInput(Snake snake);
+void MoveInput(Snake snake); // ”правление 

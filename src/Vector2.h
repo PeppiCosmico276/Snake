@@ -20,4 +20,4 @@ public:
 	bool operator<=(const Vector2& vec); //Перегрузка оператора равенства
 };
 
-std::ostream& operator<<(std::ostream& stream, const Vector2& other); //Перегрузка оператора сдвига влево
+std::ostream& operator<<(std::ostream& stream, const Vector2& other); //Перегрузка оператора сдвига в влево

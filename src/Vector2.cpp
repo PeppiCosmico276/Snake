@@ -1,6 +1,8 @@
 #include <iostream>
 #include "Vector2.h"
 
+static int k = 0; 
+
 Vector2::Vector2()
 	:x(0), y(0) {}
 
@@ -41,4 +43,8 @@ bool Vector2::operator<=(const Vector2& vec) {
 std::ostream& operator<<(std::ostream& stream, const Vector2& other) {
 	stream << "( " << other.x << ", " << other.y << " )";
 	return stream;
+}
+
+void Print() {
+	std::cout << k << std::endl;
 }

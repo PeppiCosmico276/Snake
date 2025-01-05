@@ -3,13 +3,15 @@
 #include "Vector2.h"
 #include "Snake.h"
 #include "Inputs.h"
+#include "GameManager.h"
+
 
 int main()
 {
-	int i = 0;
+	Snake snake;
+
 	while (true) {
-		std::cout << i << std::endl;
-		i++;
+		MoveInput(snake);
 	}
 
 	std::cin.get();

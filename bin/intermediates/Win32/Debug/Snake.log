@@ -1,4 +1,14 @@
-﻿  Inputs.cpp
+﻿  GameManager.cpp
+  Inputs.cpp
+  Snake.cpp
+E:\Programs\Microsoft Visual Studio\Projects\Snake\src\Snake.cpp(14,30): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programs\Microsoft Visual Studio\Projects\Snake\src\Snake.cpp(14,23): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programs\Microsoft Visual Studio\Projects\Snake\src\Snake.cpp(18,29): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programs\Microsoft Visual Studio\Projects\Snake\src\Snake.cpp(18,23): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programs\Microsoft Visual Studio\Projects\Snake\src\Snake.cpp(22,29): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programs\Microsoft Visual Studio\Projects\Snake\src\Snake.cpp(22,23): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programs\Microsoft Visual Studio\Projects\Snake\src\Snake.cpp(26,29): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programs\Microsoft Visual Studio\Projects\Snake\src\Snake.cpp(26,23): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
   main.cpp
   Создание кода...
   Snake.vcxproj -> E:\Programs\Microsoft Visual Studio\Projects\Snake\bin\Win32\Debug\Snake.exe

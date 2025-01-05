@@ -1,7 +1,9 @@
 #include <iostream>
 #include <string>
+
 #include "Vector2.h"
 #include "Snake.h"
+#include "GameManager.h"
 
 void Snake::SetPosition(Vector2 pos) {
 	position = pos;
@@ -23,6 +25,14 @@ void Snake::SetDirection(const std::string& dir) {
 	if(dir == "right") {
 		direction = Vector2(1.0f, 0.0f);
 	}
-	
-	std::cout << "| " << dir << " | " << direction << std::endl;
+
+// Выводит информацию при каждом инпуте. Автоматически включается в режиме Debug. Чтобы отключить полностью, нужно заменить '1' на '0'
+#if DEBUG_INFO && 1
+	DebugInfo();
+#endif
+}
+
+void Snake::DebugInfo() {
+	std::cout << "Position: " << position << std::endl;
+	std::cout << "Dir:      " << direction << std::endl;
 }
